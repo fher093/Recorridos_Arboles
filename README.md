@@ -9,51 +9,6 @@
 ## Objetivo general
 Implementar y analizar los principales recorridos de árboles binarios utilizando C++ y Java, aplicando estructuras de datos dinámicas, recursividad y colas.
 
-## Resultados de aprendizaje
-Al finalizar la práctica, el estudiante será capaz de:
-
-1. Explicar la diferencia entre recorridos DFS y BFS.
-2. Implementar recorridos Inorden, Preorden y Postorden con recursividad.
-3. Implementar BFS usando una cola.
-4. Comparar la implementación en C++ y Java.
-5. Aplicar recorridos de árboles a un caso real del proyecto final.
-
-## Contenido
-
-| Carpeta | Descripción |
-|---|---|
-| `docs/` | Guía práctica para la clase |
-| `src/cpp/` | Implementación completa en C++ |
-| `src/java/` | Implementación completa en Java |
-| `exercises/` | Ejercicios para trabajo grupal |
-| `moodle/` | Banco de preguntas tipo Moodle |
-| `assets/` | Recursos de apoyo |
-
-## Reglas de recorrido
-
-| Recorrido | Orden |
-|---|---|
-| Inorden | Izquierda → Raíz → Derecha |
-| Preorden | Raíz → Izquierda → Derecha |
-| Postorden | Izquierda → Derecha → Raíz |
-| BFS | Nivel por nivel usando cola |
-
-## Ejecución en C++
-
-```bash
-cd src/cpp
-g++ main.cpp -o recorridos
-./recorridos
-```
-
-## Ejecución en Java
-
-```bash
-cd src/java
-javac Main.java
-java Main
-```
-
 ## Actividad  sugerida:
 
 1. Clonar el repositorio.
