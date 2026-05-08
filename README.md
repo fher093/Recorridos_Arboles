@@ -63,52 +63,8 @@ java Main
 5. Modificar el caso de aplicación al proyecto final.
 6. Subir evidencias al repositorio GitHub del grupo.
 
-## Entregables
 
-# Recorridos de Árboles Binarios - Estructura de Datos
-
-**Universidad Técnica de Ambato**  
-**Carrera:** Ingeniería de Software  
-**Asignatura:** Estructura de Datos  
-**Curso:** Tercero B  
-**Tema:** Recorridos de árboles binarios: Inorden, Preorden, Postorden y BFS  
-**Integrante:** Fher  
-**Fecha:** 2026
-
----
-
-## 📋 Objetivo General
-
-Implementar y analizar los principales recorridos de árboles binarios utilizando **C++** y **Java**, aplicando estructuras de datos dinámicas, recursividad y colas. Aplicar estos conceptos a un caso real basado en la arquitectura del proyecto final: **Sistema SmartCampus**.
-
----
-
-## 🔄 Reglas de Recorrido
-
-| Recorrido | Orden | Tipo |
-|-----------|-------|------|
-| **Inorden** | Izquierda → Raíz → Derecha | DFS |
-| **Preorden** | Raíz → Izquierda → Derecha | DFS |
-| **Postorden** | Izquierda → Derecha → Raíz | DFS |
-| **BFS** | Nivel por nivel (usando cola) | BFS |
-
----
-
-## 🏗️ Arquitectura SmartCampus
-
-```
-            [SmartCampus Web]              
-                 /      \                 
-       [Usuarios]        [Academico]       
-        /     \           /      \        
-  [Auth]   [Roles]   [Materias] [Sesiones] 
-                                   /       
-                              [Asistencia] 
-```
-
----
-
-## 📦 Entregables
+##  Entregables
 
 ### Código C++
 
@@ -334,15 +290,30 @@ public class Main {
 }
 ```
 
+--- 
+
+
+## Arquitectura SmartCampus
+
+```
+            [SmartCampus Web]              
+                 /      \                 
+       [Usuarios]        [Academico]       
+        /     \           /      \        
+  [Auth]   [Roles]   [Materias] [Sesiones] 
+                                   /       
+                              [Asistencia] 
+```
+
 ---
 
 ## 📸 Evidencias de Ejecución
 
 **Captura C++:**
-![Ejecución C++]("C:\Users\usuario\Pictures\Screenshots\Captura de pantalla 2026-05-08 014618.png")
+![Ejecución C++](evidencias/c++.png)
 
 **Captura Java:**
-![Ejecución Java]("C:\Users\usuario\Pictures\Screenshots\Captura de pantalla 2026-05-08 014838.png")    
+![Ejecución Java](evidencias/java.png)    
 
 ---
 
